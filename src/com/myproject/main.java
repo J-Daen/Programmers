@@ -16,8 +16,8 @@ public class main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.print("test");
-		BridgeTruck solution = new BridgeTruck();
-		solution.solution(2, 10, new int[]{7,4,5,6});
+		FailureRate solution = new FailureRate();
+		solution.solution(5, new int[]{2, 1, 2, 6, 2, 4, 3, 3});
 	}
 	
 }

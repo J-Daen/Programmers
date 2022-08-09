@@ -1,5 +1,6 @@
 package com.myproject;
 
+import java.util.Collections;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -15,7 +16,8 @@ public class BridgeTruck {
 	        	bridge.offer(0);
 	        }
 	        
-	        
+	        Arrays.res
+	        Collections.reverse(null);
 	        for(int i : truck_weights) {
 	        	truck.offer(i);
 	        }

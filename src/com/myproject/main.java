@@ -16,9 +16,8 @@ public class main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.print("test");
-		BestAlbum solution = new BestAlbum();
-		solution.solution(new String[]{"classic", "pop", "classic", "classic", "pop"}, 
-				new int[]{500, 600, 150, 800, 2500});
+		HIndex solution = new HIndex();
+		solution.solution(new int[]{4,4,4});
 	}
 	
 }

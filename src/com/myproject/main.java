@@ -16,9 +16,9 @@ public class main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.print("test");
-		Joystick solution = new Joystick();
-		//solution.solution(new int[]{4,4,4});
-		solution.solution("LAABAA");
+		LargestNumber solution = new LargestNumber();
+		solution.solution(new int[]{3, 30, 34, 5, 9});
+		//solution.solution("1D2S#10S");
 	}
 	
 }

@@ -10,7 +10,6 @@ public class Print {
         int maxPriorite = Integer.MIN_VALUE;
         Queue<Integer> queue = new LinkedList<Integer>();
         Queue<Integer> queuePrint = new LinkedList<Integer>();
-        
         int locationValue = 0;
         for(int i = 0; i < priorities.length; i++) {
         	queue.offer(i);

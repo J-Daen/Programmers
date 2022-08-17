@@ -8,7 +8,7 @@ public class MakeBigNumber {
 	public String solution(String number, int k) {
         StringBuilder sb = new StringBuilder();
         
-        String split = number.substring(0, k);
+        int outputLength = number.length() - k;
         
         return sb.toString();
     }

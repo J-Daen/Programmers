@@ -16,9 +16,9 @@ public class main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.print("test");
-		CreateCharacters solution = new CreateCharacters();
+		NewsClustering solution = new NewsClustering();
 		//solution.solution(new String[] {"I 4", "I 3", "I 2", "I 1", "D 1", "D 1", "D -1", "D -1", "I 5", "I 6"});
-		solution.solution("abc abc abc ");
+		solution.solution("E=M*C^2", "e=m*c^2");
 	}
 	
 }

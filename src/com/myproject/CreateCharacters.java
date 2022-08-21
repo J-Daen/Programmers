@@ -16,7 +16,8 @@ public class CreateCharacters {
         		else
         			sb.append(alpabat.toLowerCase());
         	}
-        	sb.append(" ");
+        	if(i != characters.length-1)
+        		sb.append(" ");
         }
         return sb.toString().trim();
     }

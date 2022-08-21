@@ -2,7 +2,7 @@ package com.myproject;
 
 import java.util.LinkedList;
 import java.util.Queue;
-
+//두 큐 합 같게 만들기
 public class MakeEqual {
     public int solution(int[] numbers1, int[] numbers2) {
         int answer = 0;

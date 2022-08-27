@@ -13,7 +13,7 @@ public class HashadSu {
         String sNumber = String.valueOf(x);
         int sum = 0;
         for(char cNumber : sNumber.toCharArray()) {
-        	sum += Integer.valueOf(cNumber);
+        	sum += Integer.valueOf(String.valueOf(cNumber));
         }
         
         if(x % sum != 0)
